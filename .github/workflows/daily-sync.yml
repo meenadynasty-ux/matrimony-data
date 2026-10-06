@@ -3,7 +3,6 @@ name: Daily Firebase Auto-Sync
 on:
   schedule:
     # यह टाइमर रोज़ रात 12:00 बजे (भारतीय समयानुसार) चलेगा
-    # (UTC में 18:30 का मतलब IST में रात 12:00 बजे होता है)
     - cron: '30 18 * * *'
   workflow_dispatch: # यह आपको जब चाहें तब मैन्युअली चलाने का बटन भी देगा
 
@@ -15,18 +14,18 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: रिपॉजिटरी चेकआउट करें
+      - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Node.js सेटअप करें
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
 
-      - name: डेटा क्लीनिंग स्क्रिप्ट चलाएँ
+      - name: Run Data Cleaning Script
         run: node sync.js
 
-      - name: गिटहब पर नया डेटा सेव (Commit) करें
+      - name: Commit and Push New Data
         run: |
           git config --global user.name "Auto-Sync-Bot"
           git config --global user.email "bot@meenamatrimony.com"
