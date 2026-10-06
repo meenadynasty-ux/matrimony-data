@@ -6203,7 +6203,7 @@
     }
   },
   "bot_stats": {
-    "last_heartbeat": 1791304902320,
+    "last_heartbeat": 1791326502334,
     "live_metrics": {
       "ai_failures": 1,
       "duplicates_skipped": 0,
@@ -6213,7 +6213,7 @@
       "start_time": 1780809874840,
       "uptime": 720
     },
-    "profiles_added": 2958
+    "profiles_added": 2959
   },
   "campaigns_ads": {
     "-P1TD9jOtkBF_Jwd4AVe": {
@@ -15801,6 +15801,238 @@
       "viewerDisplayName": "Harkesh Meena",
       "viewerEmail": "hkmeena78@gmail.com",
       "viewerUid": "iMqV38bCmzO23bdCXVAItkUTeg13"
+    },
+    "-P3H5m80Je-rcTiDBPdK": {
+      "date": "2026-10-06",
+      "isAdminAccess": false,
+      "targetFirebaseKey": "-P272KGED-RmSxXQkjUd",
+      "targetName": "DR. RAKSHA MINA",
+      "targetPhone": "919131067802",
+      "targetProfileId": "#1435",
+      "timestamp": 1791305130998,
+      "viewerEmail": "mnarsee3798@gmail.com",
+      "viewerName": "Narsee Meena",
+      "viewerUid": "Nh1h9iKkMig5fy0JwiK4EdQCyvH3"
+    },
+    "-P3H5yDMq8y1X9iIy09_": {
+      "action": "GOOGLE_LOGIN",
+      "page": "/",
+      "profileFirebaseKey": "",
+      "profileId": "",
+      "profileName": "",
+      "timestamp": 1791305180220,
+      "viewerDisplayName": "Harkesh Meena",
+      "viewerEmail": "hkmeena78@gmail.com",
+      "viewerUid": "iMqV38bCmzO23bdCXVAItkUTeg13"
+    },
+    "-P3H60qTxnyZSkbCyaKS": {
+      "action": "GOOGLE_LOGIN",
+      "page": "/search.html",
+      "profileFirebaseKey": "",
+      "profileId": "",
+      "profileName": "",
+      "timestamp": 1791305194994,
+      "viewerDisplayName": "Harkesh Meena",
+      "viewerEmail": "hkmeena78@gmail.com",
+      "viewerUid": "iMqV38bCmzO23bdCXVAItkUTeg13"
+    },
+    "-P3H6CAy9gevC44ZymgM": {
+      "action": "GOOGLE_LOGIN",
+      "page": "/",
+      "profileFirebaseKey": "",
+      "profileId": "",
+      "profileName": "",
+      "timestamp": 1791305241468,
+      "viewerDisplayName": "Harkesh Meena",
+      "viewerEmail": "hkmeena78@gmail.com",
+      "viewerUid": "iMqV38bCmzO23bdCXVAItkUTeg13"
+    },
+    "-P3H6Cx9E2Bc0eF801Op": {
+      "action": "GOOGLE_LOGIN",
+      "page": "/search.html",
+      "profileFirebaseKey": "",
+      "profileId": "",
+      "profileName": "",
+      "timestamp": 1791305244585,
+      "viewerDisplayName": "Harkesh Meena",
+      "viewerEmail": "hkmeena78@gmail.com",
+      "viewerUid": "iMqV38bCmzO23bdCXVAItkUTeg13"
+    },
+    "-P3H6Taq0NJ17TrV1Dfn": {
+      "action": "GOOGLE_LOGIN",
+      "page": "/",
+      "profileFirebaseKey": "",
+      "profileId": "",
+      "profileName": "",
+      "timestamp": 1791305312807,
+      "viewerDisplayName": "Harkesh Meena",
+      "viewerEmail": "hkmeena78@gmail.com",
+      "viewerUid": "iMqV38bCmzO23bdCXVAItkUTeg13"
+    },
+    "-P3H6UGEEhmvsZYSKRLz": {
+      "action": "GOOGLE_LOGIN",
+      "page": "/search.html",
+      "profileFirebaseKey": "",
+      "profileId": "",
+      "profileName": "",
+      "timestamp": 1791305315532,
+      "viewerDisplayName": "Harkesh Meena",
+      "viewerEmail": "hkmeena78@gmail.com",
+      "viewerUid": "iMqV38bCmzO23bdCXVAItkUTeg13"
+    },
+    "-P3H6nypuq9wRV5j9qu6": {
+      "action": "GOOGLE_LOGIN",
+      "page": "/",
+      "profileFirebaseKey": "",
+      "profileId": "",
+      "profileName": "",
+      "timestamp": 1791305400341,
+      "viewerDisplayName": "Harkesh Meena",
+      "viewerEmail": "hkmeena78@gmail.com",
+      "viewerUid": "iMqV38bCmzO23bdCXVAItkUTeg13"
+    },
+    "-P3H6oObQnjX43_cLklT": {
+      "action": "GOOGLE_LOGIN",
+      "page": "/search.html",
+      "profileFirebaseKey": "",
+      "profileId": "",
+      "profileName": "",
+      "timestamp": 1791305402063,
+      "viewerDisplayName": "Harkesh Meena",
+      "viewerEmail": "hkmeena78@gmail.com",
+      "viewerUid": "iMqV38bCmzO23bdCXVAItkUTeg13"
+    },
+    "-P3H7NPB4D78pO_oyR_H": {
+      "action": "GOOGLE_LOGIN",
+      "page": "/search.html",
+      "profileFirebaseKey": "",
+      "profileId": "",
+      "profileName": "",
+      "timestamp": 1791305549633,
+      "viewerDisplayName": "Harkesh Meena",
+      "viewerEmail": "hkmeena78@gmail.com",
+      "viewerUid": "iMqV38bCmzO23bdCXVAItkUTeg13"
+    },
+    "-P3H7NzdtueZCUUzs5l4": {
+      "action": "GOOGLE_LOGIN",
+      "page": "/search.html",
+      "profileFirebaseKey": "",
+      "profileId": "",
+      "profileName": "",
+      "timestamp": 1791305552767,
+      "viewerDisplayName": "Harkesh Meena",
+      "viewerEmail": "hkmeena78@gmail.com",
+      "viewerUid": "iMqV38bCmzO23bdCXVAItkUTeg13"
+    },
+    "-P3H7NznOgTTdTxyS1Ao": {
+      "action": "GOOGLE_LOGIN",
+      "page": "/search.html",
+      "profileFirebaseKey": "",
+      "profileId": "",
+      "profileName": "",
+      "timestamp": 1791305551958,
+      "viewerDisplayName": "Harkesh Meena",
+      "viewerEmail": "hkmeena78@gmail.com",
+      "viewerUid": "iMqV38bCmzO23bdCXVAItkUTeg13"
+    },
+    "-P3H8Oitw2NUqkjdvWkc": {
+      "action": "GOOGLE_LOGIN",
+      "page": "/",
+      "profileFirebaseKey": "",
+      "profileId": "",
+      "profileName": "",
+      "timestamp": 1791305817126,
+      "viewerDisplayName": "R R",
+      "viewerEmail": "rishimeena16june@gmail.com",
+      "viewerUid": "QRSkUatZZ5Wtmg2OKgvR0CBdHQ93"
+    },
+    "-P3H8PQ5UuGjMMLbKTid": {
+      "action": "GOOGLE_LOGIN",
+      "page": "/",
+      "profileFirebaseKey": "",
+      "profileId": "",
+      "profileName": "",
+      "timestamp": 1791305819965,
+      "viewerDisplayName": "R R",
+      "viewerEmail": "rishimeena16june@gmail.com",
+      "viewerUid": "QRSkUatZZ5Wtmg2OKgvR0CBdHQ93"
+    },
+    "-P3H8QPmbU923Dw9wk8N": {
+      "action": "GOOGLE_LOGIN",
+      "page": "/search.html",
+      "profileFirebaseKey": "",
+      "profileId": "",
+      "profileName": "",
+      "timestamp": 1791305824214,
+      "viewerDisplayName": "R R",
+      "viewerEmail": "rishimeena16june@gmail.com",
+      "viewerUid": "QRSkUatZZ5Wtmg2OKgvR0CBdHQ93"
+    },
+    "-P3H8Uf-FKUWVu8Xs-T_": {
+      "action": "GOOGLE_LOGIN",
+      "page": "/search.html",
+      "profileFirebaseKey": "",
+      "profileId": "",
+      "profileName": "",
+      "timestamp": 1791305841604,
+      "viewerDisplayName": "R R",
+      "viewerEmail": "rishimeena16june@gmail.com",
+      "viewerUid": "QRSkUatZZ5Wtmg2OKgvR0CBdHQ93"
+    },
+    "-P3H8XYT-g5ODhvWSRHb": {
+      "action": "GOOGLE_LOGIN",
+      "page": "/search.html",
+      "profileFirebaseKey": "",
+      "profileId": "",
+      "profileName": "",
+      "timestamp": 1791305853385,
+      "viewerDisplayName": "R R",
+      "viewerEmail": "rishimeena16june@gmail.com",
+      "viewerUid": "QRSkUatZZ5Wtmg2OKgvR0CBdHQ93"
+    },
+    "-P3HON6ceqP-jFBeA9xA": {
+      "action": "GOOGLE_LOGIN",
+      "page": "/",
+      "profileFirebaseKey": "",
+      "profileId": "",
+      "profileName": "",
+      "timestamp": 1791310004807,
+      "viewerDisplayName": "RAJESH MEENA",
+      "viewerEmail": "rajeshbaiflawat2@gmail.com",
+      "viewerUid": "IZJwIZMx2efJPDGut2z0cXDT5ST2"
+    },
+    "-P3HP2ie12e5VmTCaIlB": {
+      "action": "GOOGLE_LOGIN",
+      "page": "/search.html",
+      "profileFirebaseKey": "",
+      "profileId": "",
+      "profileName": "",
+      "timestamp": 1791310183723,
+      "viewerDisplayName": "RAJESH MEENA",
+      "viewerEmail": "rajeshbaiflawat2@gmail.com",
+      "viewerUid": "IZJwIZMx2efJPDGut2z0cXDT5ST2"
+    },
+    "-P3HPL0riIjGBi8aBdbb": {
+      "action": "GOOGLE_LOGIN",
+      "page": "/",
+      "profileFirebaseKey": "",
+      "profileId": "",
+      "profileName": "",
+      "timestamp": 1791310258392,
+      "viewerDisplayName": "RAJESH MEENA",
+      "viewerEmail": "rajeshbaiflawat2@gmail.com",
+      "viewerUid": "IZJwIZMx2efJPDGut2z0cXDT5ST2"
+    },
+    "-P3HPVI03Oi1X7bqAEcv": {
+      "action": "GOOGLE_LOGIN",
+      "page": "/",
+      "profileFirebaseKey": "",
+      "profileId": "",
+      "profileName": "",
+      "timestamp": 1791310300452,
+      "viewerDisplayName": "RAJESH MEENA",
+      "viewerEmail": "rajeshbaiflawat2@gmail.com",
+      "viewerUid": "IZJwIZMx2efJPDGut2z0cXDT5ST2"
     }
   },
   "counters": {
@@ -38987,6 +39219,9 @@
     "OTQxNDE1MzUxMXxsYXhtYW4gbWVlbmE=": {
       "timestamp": 1791198315039
     },
+    "OTQxNDI1NzA3MHxza20=": {
+      "timestamp": 1791311348525
+    },
     "OTQxNDI5MDk1NHw=": {
       "timestamp": 1791136384427
     },
@@ -41057,6 +41292,33 @@
       "siblings": "",
       "source": "whatsapp_bot",
       "timestamp": 1791302945619,
+      "uid": "WhatsApp_AI_Autopilot"
+    },
+    "-P3HTVDGmqHBs_a9Evum": {
+      "address": "Jagatpura, Jaipur",
+      "age": "28",
+      "city": "Jaipur",
+      "complexion": "",
+      "dob": "1996",
+      "edu": "B. Tech (CIVIL ENGINEERING) from RTU Kota",
+      "father": "Retired from Assistant Director, Agriculture Department, Rajasthan",
+      "fatherOcc": "Retired from Assistant Director, Agriculture Department, Rajasthan",
+      "g1": "Mimroth",
+      "g2": "Nanglot",
+      "g3": "Mandawat",
+      "g4": "Badgotya",
+      "gen": "Boy",
+      "height": "5' 9\"",
+      "id": "1791311348264",
+      "inc": "",
+      "jobType": "Junior Engineer, Central Public Works Department (CPWD)",
+      "marital": "Unmarried",
+      "mother": "",
+      "name": "SKM",
+      "native": "Lalpur, Mahuwa",
+      "siblings": "2 married brothers",
+      "source": "whatsapp_bot",
+      "timestamp": 1791311348821,
       "uid": "WhatsApp_AI_Autopilot"
     }
   },
@@ -102031,7 +102293,7 @@
       "state": "offline"
     },
     "RAJESH MEENA": {
-      "last_changed": 1787429348913,
+      "last_changed": 1791310298832,
       "state": "offline"
     },
     "RAMAWATAR MEENA": {
