@@ -1,7 +1,7 @@
 const fs = require('fs');
 
-// यहाँ अपनी Firebase Database की URL डालें (ध्यान रहे अंत में .json ज़रूर लगा हो)
-const FIREBASE_URL = 'https://meena-marriage-default-rtdb.asia-southeast1.firebasedatabase.app/.json';
+// Firebase Database URL with Secret Key for Authentication
+const FIREBASE_URL = 'https://meena-marriage-default-rtdb.asia-southeast1.firebasedatabase.app/.json?auth=KLEHB8GIs2PxUIobazUAGHsObWz2AT1Gtqjk83tV';
 
 // जिन फील्ड्स को पब्लिक नहीं करना है (सुरक्षा के लिए)
 const blockedKeys = new Set([
