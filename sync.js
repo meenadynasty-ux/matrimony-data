@@ -1,62 +1,64 @@
-Const fs = require('fs');
+const fs = require('fs');
 
-// आपका असली Firebase Database URL
-const FIREBASE_URL = "https://meena-marriage-default-rtdb.asia-southeast1.firebasedatabase.app/.json";
+// यहाँ अपनी Firebase Database की URL डालें (ध्यान रहे अंत में .json ज़रूर लगा हो)
+const FIREBASE_URL = 'https://meena-marriage-default-rtdb.asia-southeast1.firebasedatabase.app/.json';
 
+// जिन फील्ड्स को पब्लिक नहीं करना है (सुरक्षा के लिए)
 const blockedKeys = new Set([
-  'phone', 'alt_phone', 'mobile', 'contact', 'whatsapp', 
-  'father_phone', 'phonelast10', 'verifiedemail', 'email'
+    'phone', 'alt_phone', 'mobile', 'contact', 'whatsapp', 
+    'father_phone', 'phone1to10', 'verifiedemail', 'email'
 ]);
 
-const phoneRegex = /(\+?\d{1,3}[-.\s]?)?(\d{10,12})/g;
+const phoneRegex = /(?:\+?\d{1,3}[-\s]?)?(?:\d{10,12})/g;
 
 function sanitizeObject(item) {
-  if (Array.isArray(item)) {
-    return item.map(sanitizeObject);
-  } else if (item !== null && typeof item === 'object') {
-    const cleanObj = {};
-    for (const key of Object.keys(item)) {
-      const lowerKey = key.toLowerCase().trim();
+    if (Array.isArray(item)) {
+        return item.map(sanitizeObject);
+    } else if (item !== null && typeof item === 'object') {
+        const cleanObj = {};
+        for (const key of Object.keys(item)) {
+            const lowerKey = key.toLowerCase().trim();
 
-      // संवेदनशील फ़ील्ड मिलने पर उसे हटा दें
-      if (blockedKeys.has(lowerKey)) {
-        continue;
-      }
+            // संवेदनशील फ़ील्ड्स को हटा दें
+            if (blockedKeys.has(lowerKey)) {
+                continue;
+            }
 
-      let value = item[key];
+            let value = item[key];
 
-      // identitySignature जैसी स्ट्रिंग्स में मौजूद फ़ोन नंबर को साफ़ करें
-      if (lowerKey === 'identitysignature' && typeof value === 'string') {
-        value = value.replace(phoneRegex, '[REDACTED]');
-      }
+            // identitySignature जैसी फील्ड्स में से नंबर हटाएँ (Redact करें)
+            if (lowerKey === 'identitysignature' && typeof value === 'string') {
+                value = value.replace(phoneRegex, '[REDACTED]');
+            }
 
-      cleanObj[key] = sanitizeObject(value);
+            cleanObj[key] = sanitizeObject(value);
+        }
+        return cleanObj;
     }
-    return cleanObj;
-  }
-  return item;
+    return item;
 }
 
 async function runSync() {
-  try {
-    console.log("Firebase से डेटा फेच हो रहा है...");
-    const response = await fetch(FIREBASE_URL);
-    
-    if (!response.ok) {
-      throw new Error(`HTTP Error! Status: ${response.status}`);
-    }
-    
-    const rawJson = await response.json();
-    const sanitizedData = sanitizeObject(rawJson);
+    try {
+        console.log('Firebase से डेटा फेच हो रहा है...');
+        // Node.js v18+ में fetch इनबिल्ट होता है
+        const response = await fetch(FIREBASE_URL);
 
-    // क्लीन किए गए डेटा को public_profiles.json में सेव करें
-    fs.writeFileSync('public_profiles.json', JSON.stringify(sanitizedData));
-    console.log("डेटा सफलतापूर्वक क्लीन होकर सेव हो गया!");
-    
-  } catch (error) {
-    console.error("ऑटो-सिंक में एरर आई:", error);
-    process.exit(1);
-  }
+        if (!response.ok) {
+            throw new Error(`HTTP Error! Status: ${response.status}`);
+        }
+
+        const rawJson = await response.json();
+        const sanitizedData = sanitizeObject(rawJson);
+
+        // क्लीन किए गए डेटा को public_profiles.json में सेव करें
+        fs.writeFileSync('public_profiles.json', JSON.stringify(sanitizedData, null, 2));
+        console.log("✅ डेटा सफलतापूर्वक क्लीन होकर सेव हो गया!");
+
+    } catch (error) {
+        console.error("❌ डेटा सिंक में एरर आई:", error);
+        process.exit(1); // एरर आने पर एक्शन को फेल करने के लिए
+    }
 }
 
 runSync();
